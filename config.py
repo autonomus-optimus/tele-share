@@ -24,6 +24,9 @@ CHANNEL_ID = -1001846073583
 #OWNER ID
 OWNER_ID = 5299021006
 
+#Port
+PORT = os.environ.get("PORT", "8080")
+
 #Database 
 DB_URI = mongodb+srv://Aniketh:Aniketh@cluster0.x1hrphp.mongodb.net/?retryWrites=true&w=majority
 DB_NAME = Aniketh
