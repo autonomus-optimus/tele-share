@@ -17,7 +17,7 @@ API_HASH = os.environ.get("API_HASH", "c82248cee35b0c9a9de4a5caf0c2ac9f")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001846073583"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5299021006"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6638926139"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -35,7 +35,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5474618495 1144738419").split()):
+    for x in (os.environ.get("ADMINS", "6638926139").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
